@@ -3,6 +3,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import seaborn as sns #for the nicer default styles
 from secret_string import *
+from dictionary import expenditure_codes
 
 def clean_df_for_pie(df):
     df = df[df.amount<0] #only take outgoings
